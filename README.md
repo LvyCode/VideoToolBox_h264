@@ -1,6 +1,7 @@
 # VideoToolBox_h264
 H.264  视频捕捉
 ***VideoToolBox iOS8.0推出   同期block也推出出来了***
+
 `VideoToolBox工作流程
 VideoToolBox基于Core Foundation库函数，c语言 
 创建session——>设置编码相关参数——>开始编码——>循环输入源数据（yuv类型的数据，直接从摄像头获取）——>获取编码后的H264数据——>结束编码`
